@@ -1,0 +1,188 @@
+
+@import "~bootstrap/scss/bootstrap";
+
+@media (min-width: 1200px){
+
+}
+
+@media (min-width: 992px){
+
+}
+
+@media (min-width: 768px){
+
+}
+
+@media (min-width: 576px){
+  
+
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 736px) { 
+ 
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px
+  }
+  .navbar-light .navbar-brand ::after {
+   content: "";
+  }
+
+}
+
+
+img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #343a40;
+ font-family: 'Poppins', sans-serif;
+}
+
+.Logo {
+  height: 40vmin;
+  pointer-events: none;
+  background-image: url(./img/logo.png)
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.navbar-light .navbar-brand {
+  color: #ffffff;
+ 
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  color: #ffffff;
+  margin-top: 20px;
+
+}
+
+.div{
+  background-color: #343a40;
+  
+}
+
+.container {
+  display: flex;
+  background-color: #343a40;
+  overflow-x: scroll;
+  width: 100%;
+  margin-top: 30px
+
+}
+
+.card {
+  flex-shrink: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 600px;
+  height: 600px;
+  padding-left: ($spacer * 3) !important;
+  padding-right: ($spacer * 3) !important;
+  margin-left: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  
+  
+ 
+}
+
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 130px;
+  list-style: none;
+  background-color: #343a40;
+  color:#ffffff
+}
+
+// .card + .card {
+//   margin: 0 0 0 30px;
+//  }
+
+
+
+h4, .h4 {
+  font-size: 1rem;
+  margin-right: 210px;
+}
+
+.buttons{
+  margin-left: 70%;
+     
+}
+
+.SocialIcon{
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  margin: 20%;
+  overflow: hidden;
+  vertical-align: middle;
+
+}
+
+.motion.div{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+
+}
